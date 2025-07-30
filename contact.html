@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>اتصل بنا</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+    .contact-form {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 600px;
+      margin: auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #2e86de;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin-top: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #1e6fbd;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="contact-form">
+    <h2>اتصل بنا</h2>
+    <p>إذا كان لديك أي استفسار أو اقتراح، لا تتردد في مراسلتنا عبر هذا النموذج:</p>
+    <form action="mhdehedr15@gmail.com" method="post" enctype="text/plain">
+      <label>الاسم:</label>
+      <input type="text" name="name" required>
+      <label>البريد الإلكتروني:</label>
+      <input type="email" name="email" required>
+      <label>الرسالة:</label>
+      <textarea name="message" rows="6" required></textarea>
+      <button type="submit">إرسال</button>
+    </form>
+  </div>
+
+</body>
+</html>
